@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+    <style>
+        label{
+            width: 80px;
+            display:inline-block;}       
+        #text{width: 5%}
+        #pas{width: 5%;}
+        #name{width: 16%;}
+        #add{ width: 16%;}
+        #code{ width: 10%; }
+        #email{width: 16%;}
+
+    </style>
+
+</head>
+<body>
+<h1>
+    Registration Form 
+</h1>
+       <form> 
+           <div>
+             <label>user id: </label>
+             <input  type="text" name="" id="text">
+           </div><br>
+              <div>
+              <label>password:</label>
+              <input type="password" name="" id="pas">
+              </div> <br>
+           <div>
+              <label>name:</label>
+              <input type="text" name="" id="name">
+          </div> <br>
+          <div>
+              <label>Address:</label>
+             <input type="text" name="" id="add">
+          </div>
+              <br>
+
+          <div class="select-something" id="cou">
+        country:
+        <select name="state" id="countrysel" size="1">
+            <option value="" selected="selected"> please select a country </option>
+        </select>
+
+           </div><br>
+           <div> 
+               <label> Zib code:</label><input type="text" name="" id="code"></div> <br>
+           <div>
+               <Label>Email:</Label>
+               <input type="text" name="" id="email">
+          </div><br>
+          <div>
+                <label>sex:</label>
+                <input type="radio" name="sex"> male
+                <input type="radio" name="sex"> female
+          </div><br>
+          <div>
+                   <label>languge:</label>
+                  <input type="checkbox" name="languge"> english
+                  <input type="checkbox" name="languge"> arabic
+          </div><br>
+          <div style="float: left;">
+                   <label> About:</label>
+                </div>
+                 <textarea rows="8" cols="40"></textarea> 
+               
+                <div style="margin-left: 200px;"><br>
+    
+                   <input type="submit" name="">
+          </div>
+
+
+
+</form>
+</body>
+</html>
